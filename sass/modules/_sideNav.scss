@@ -1,0 +1,25 @@
+.sidebarC {
+    .sNav {
+        font-size: 1.45rem;
+
+        ul {
+            margin: 5px -15px 0;
+
+            li {
+                margin-top: 13px;
+                padding   : 12px 0 12px 14%;
+
+                &:hover {
+                    background-color: #333;
+                    cursor          : pointer;
+                    color           : white;
+                }
+            }
+        }
+
+        span,
+        i {
+            margin-right: 10px;
+        }
+    }
+}

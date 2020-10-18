@@ -1,0 +1,127 @@
+@charset "UTF-8";
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  background-color: #505050;
+}
+.sidebarC {
+  background-color: #505050;
+  color: white;
+  position: relative;
+}
+.sidebarC header {
+  position: relative;
+  background-color: #690800;
+  height: 110px;
+  font-size: 1.25rem;
+  margin: 0 -15px;
+}
+.sidebarC header .imgText {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 12%;
+}
+.sidebarC header .imgText .profileImg {
+  border: 3px solid white;
+}
+.sidebarC header .imgText p {
+  display: inline;
+  padding-left: 10px;
+}
+.sidebarC .sNav {
+  font-size: 1.45rem;
+}
+.sidebarC .sNav ul {
+  margin: 5px -15px 0;
+}
+.sidebarC .sNav ul li {
+  margin-top: 13px;
+  padding: 12px 0 12px 14%;
+}
+.sidebarC .sNav ul li:hover {
+  background-color: #333;
+  cursor: pointer;
+  color: white;
+}
+.sidebarC .sNav span,
+.sidebarC .sNav i {
+  margin-right: 10px;
+}
+.mainHead {
+  height: 110px;
+  background-color: #ffffff;
+}
+.mainHead .clLogo {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 40px;
+}
+.mainHead .yellowBoxNav {
+  position: relative;
+  display: inline-block;
+  /*float         :right;*/
+  margin-right: 30px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #f3d83f;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 55px;
+  height: 45px;
+  color: white;
+  z-index: 25;
+}
+.mainHead .yellowBoxNav span {
+  position: relative;
+  top: 8px;
+  font-size: 3rem;
+}
+.mainHead .yellowBoxNav .dropdown-menu {
+  margin-top: 25px;
+}
+.mainHead .yellowBoxNav .dropdown-menu-right {
+  right: -15px;
+}
+.mainC_nav {
+  position: absolute;
+  right: 0;
+  margin-right: 30px;
+  margin-top: 35px;
+  z-index: 100;
+  cursor: pointer;
+}
+.mainC_nav li {
+  position: relative;
+  margin-right: 5px;
+}
+.mainC_nav span {
+  font-size: 3rem;
+  color: #b7bbc2;
+}
+#topPanel {
+  margin: 0;
+  position: relative;
+}
+#topPanel .bannerContainer {
+  padding: 0;
+}
+#topPanel .profPanel {
+  width: 445px;
+  height: 150px;
+  background-color: #f2f2f2;
+  position: absolute;
+  left: 40px;
+  top: 70px;
+  border-radius: 8px;
+  -moz-box-shadow: 3px 3px 3px 0px #666;
+  -webkit-box-shadow: 3px 3px 3px 0px #666;
+  box-shadow: 3px 3px 3px 0px #666;
+}
+#topPanel .profPanel img {
+  position: absolute;
+  right: -20px;
+  top: -20px;
+}
