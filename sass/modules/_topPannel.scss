@@ -1,0 +1,28 @@
+#topPanel {
+    margin  : 0;
+    position: relative;
+
+    .bannerContainer {
+        padding: 0;
+    }
+
+    .profPanel {
+        width             : 445px;
+        height            : 150px;
+        background-color  : #f2f2f2;
+        position          : absolute;
+        left              : 40px;
+        top               : 70px;
+        border-radius     : 8px;
+        -moz-box-shadow   : 3px 3px 3px 0px #666;
+        -webkit-box-shadow: 3px 3px 3px 0px #666;
+        box-shadow        : 3px 3px 3px 0px #666;
+
+        img {
+            position: absolute;
+            right   : -20px;
+            top     : -20px;
+        }
+    }
+
+}
